@@ -19,7 +19,7 @@ let displayproductlist = async function (){
                  <div class="card-body">
                    <h5 class="card-title">${items.title}</h5>
                   <p class="card-text">${items.description.substring(0, 30) }... </p>
-                  <p class="card-text">${items.price}</p>
+                
              </div>
             </div>`;
     }).join('');
